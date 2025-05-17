@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git ''
+                git 'https://github.com/Pavithra-2829/branches-name.git'
             }
         }
 
